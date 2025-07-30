@@ -1,0 +1,53 @@
+# Home Assistant Add-on Configuration for CrowdSec UniFi Bouncer
+name: "CrowdSec UniFi Bouncer"
+version: "0.1.0"
+slug: "hassio-cs-unifi-bouncer"
+description: "A CrowdSec firewall bouncer for UniFi appliances."
+arch:
+  - "aarch64"
+  - "amd64"
+init: false
+startup: "application"
+boot: "auto"
+image: "ghcr.io/hensing/hassio-cs-unifi-bouncer-{arch}"
+map:
+  - "config:rw"
+
+# Add-on configuration options
+options:
+  CROWDSEC_BOUNCER_API_KEY: ""
+  CROWDSEC_URL: "http://424ccef4-crowdsec:8080/"
+  UNIFI_HOST: "https://192.168.1.1"
+  UNIFI_USER: ""
+  UNIFI_PASS: ""
+  UNIFI_SKIP_TLS_VERIFY: true
+  LOG_LEVEL: "info"
+  UNIFI_IPV6: true
+  UNIFI_SITE: "default"
+  UNIFI_MAX_GROUP_SIZE: 10000
+  UNIFI_IPV4_START_RULE_INDEX: 22000
+  UNIFI_IPV6_START_RULE_INDEX: 27000
+  UNIFI_LOGGING: false
+  CROWDSEC_UPDATE_INTERVAL: "10s"
+  CROWDSEC_ORIGINS: ""
+  UNIFI_ZONE_SRC: "External"
+  UNIFI_ZONE_DST: "Internal Vpn Hotspot"
+
+schema:
+  CROWDSEC_BOUNCER_API_KEY: "password"
+  CROWDSEC_URL: "url"
+  UNIFI_HOST: "str"
+  UNIFI_USER: "str"
+  UNIFI_PASS: "password"
+  UNIFI_SKIP_TLS_VERIFY: "bool"
+  LOG_LEVEL: "list(trace|debug|info|warn|error|fatal|panic)"
+  UNIFI_IPV6: "bool"
+  UNIFI_SITE: "str"
+  UNIFI_MAX_GROUP_SIZE: "int(1,)"
+  UNIFI_IPV4_START_RULE_INDEX: "int(1,)"
+  UNIFI_IPV6_START_RULE_INDEX: "int(1,)"
+  UNIFI_LOGGING: "bool"
+  CROWDSEC_UPDATE_INTERVAL: "str"
+  CROWDSEC_ORIGINS: "str?"
+  UNIFI_ZONE_SRC: "str?"
+  UNIFI_ZONE_DST: "str?"

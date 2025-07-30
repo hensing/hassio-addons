@@ -1,0 +1,12 @@
+{
+  "build_from": {
+    "aarch64": "ghcr.io/home-assistant/aarch64-base-debian:bullseye",
+    "amd64": "ghcr.io/home-assistant/amd64-base-debian:bullseye"
+  },
+  "labels": {
+    "org.opencontainers.image.title": "Home Assistant Add-on: CrowdSec UniFi Bouncer",
+    "org.opencontainers.image.description": "A CrowdSec bouncer for UniFi appliances, packaged as a Home Assistant Add-on.",
+    "org.opencontainers.image.source": "https://github.com/hensing/hassio-cs-unifi-bouncer",
+    "org.opencontainers.image.licenses": "MIT"
+  }
+}
