@@ -1,7 +1,7 @@
 # Hensing's Home Assistant Add-on Repository
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/hensing/hassio-addons/main/HA-Addons.jpg" alt="Hensing's Home Assistant Addons" title="Hensing's Home Assistant Addons" width="200" />
+<img src="https://raw.githubusercontent.com/hensing/hassio-addons/main/HA-Addons.jpg" alt="Hensing's Home Assistant Addons" title="Hensing's Home Assistant Addons" />
 </p>
 
 This repository contains Home Assistant add-ons maintained by [hensing](https://github.com/hensing).
