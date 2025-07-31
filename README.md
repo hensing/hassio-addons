@@ -1,10 +1,10 @@
 # Hensing's Home Assistant Add-on Repository
 
 <p align="center">
-<img src="https://github.com/teifun2/cs-unifi-bouncer/raw/main/docs/assets/crowdsec_unifi_logo.png" alt="CrowdSec UniFi Bouncer" title="CrowdSec UniFi Bouncer" width="200" />
+<img src="https://raw.githubusercontent.com/hensing/hassio-addons/main/HA-Addons.jpg" alt="Hensing's Home Assistant Addons" title="Hensing's Home Assistant Addons" width="200" />
 </p>
 
-This repository contains Home Assistant add-ons maintained by [Henning Dickten (hensing)](https://github.com/hensing).
+This repository contains Home Assistant add-ons maintained by [hensing](https://github.com/hensing).
 
 ## How to Add this Repository to Home Assistant
 

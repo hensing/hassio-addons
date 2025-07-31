@@ -1,7 +1,7 @@
 # Home Assistant Add-on: CrowdSec UniFi Bouncer
 
 <p align="center">
-<img src="https://github.com/teifun2/cs-unifi-bouncer/raw/main/docs/assets/crowdsec_unifi_logo.png" alt="CrowdSec UniFi Bouncer" title="CrowdSec UniFi Bouncer" width="300" height="280" />
+<img src="https://raw.githubusercontent.com/hensing/hassio-addons/main/HA-Addons.jpg" alt="CrowdSec UniFi Bouncer" title="CrowdSec UniFi Bouncer" width="300" height="280" />
 </p>
 
 ## About this Add-on
